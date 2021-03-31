@@ -36,8 +36,8 @@ android {
 
     defaultConfig {
         applicationId = "tomo.showcase"
-        minSdkVersion(AndroidConfig.minSdkVersion)
-        targetSdkVersion(AndroidConfig.targetSdkVersion)
+        minSdkVersion = 21
+        targetSdkVersion = 28
         versionCode = Versioning.version.code
         versionName = Versioning.version.name
 
